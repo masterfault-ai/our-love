@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="hearts-bg"></div>
+    <div class="cursor"></div>
+    <nav>
+        <div class="logo">Our<span>Love</span></div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#gallery">Memories</a>
+            <a href="#message">Love Note</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Forever & Always">Forever & Always</h1>
+            <p class="typing-text">Every love story is beautiful, but ours is my favorite...</p>
+            <div class="floating-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+            <button class="cta-button">Our Journey</button>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <h2>Our Love Story</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="date">First Meet (June 19, 2024)</div>
+                <p>The moment our eyes met, I knew you were special...</p>
+            </div>
+            <div class="timeline-item">
+                <div class="date">First Date (January 27, 2025)</div>
+                <p>That magical evening when time stood still...</p>
+            </div>
+            <div class="timeline-item">
+                <div class="date">First Kiss</div>
+                <p>A perfect moment under the starlit sky...</p>
+            </div>
+            <div class="timeline-item">
+                <div class="date">Together Forever</div>
+                <p>Every day with you is a new adventure...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Our Beautiful Memories</h2>
+        <div class="gallery-grid">
+            <div class="memory-card">
+                <div class="memory-img" style="background-image: url('https://source.unsplash.com/random/400x400/?couple')"></div>
+                <div class="memory-text">Our First Selfie</div>
+            </div>
+            <div class="memory-card">
+                <div class="memory-img" style="background-image: url('https://source.unsplash.com/random/400x400/?sunset')"></div>
+                <div class="memory-text">Perfect Sunset</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="message" class="message">
+        <h2>Write a Love Note</h2>
+        <div class="message-container">
+            <form id="love-note-form" class="love-note">
+                <input type="text" placeholder="Your Name" required>
+                <textarea placeholder="Express your feelings..." required></textarea>
+                <button type="submit" class="submit-btn"><i class="fas fa-heart"></i> Send Love</button>
+            </form>
+            <div class="love-quotes">
+                <p>"In all the world, there is no heart for me like yours."</p>
+                <p>"Every love story is beautiful, but ours is my favorite."</p>
+                <p>"I have found the one whom my soul loves."</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with <i class="fas fa-heart"></i> | Forever Yours</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
